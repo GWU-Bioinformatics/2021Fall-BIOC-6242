@@ -1,5 +1,10 @@
 # Art of Alignment, section 7
 
+# Confirm DECIPHER is installed, install if not
+required_packages = c("DECIPHER")
+to_install = required_packages[!(required_packages %in% installed.packages()[,"Package"])]
+if(length(to_install)) stop("Missing the DECIPHER package, aborting!")
+
 library(DECIPHER)
 # Load the data, as before
 db <- system.file("extdata", "Influenza.sqlite", package="DECIPHER")

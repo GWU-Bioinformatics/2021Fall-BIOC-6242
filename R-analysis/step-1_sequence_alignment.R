@@ -1,4 +1,10 @@
 # Art of Alignment, section 5.1
+
+# Confirm DECIPHER is installed, install if not
+required_packages = c("DECIPHER")
+to_install = required_packages[!(required_packages %in% installed.packages()[,"Package"])]
+if(length(to_install)) stop("Missing the DECIPHER package, aborting!")
+
 # Alignment of bacterial rplB genes (50S ribosomal protein L2)
 library(DECIPHER)
 fas <- system.file("extdata", "50S_ribosomal_protein_L2.fas", package="DECIPHER")
