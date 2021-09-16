@@ -1,3 +1,4 @@
+## Overview
 This directory contains files intended to be used as profile configurations for users setting up new SSH sessions. 
 Some files should be linked in the home directory, while others are sourced from e.g. the bashrc file. Linked files (and target locations) are:  
   |\<FILE\>|\<LINKED LOCATION\>|
@@ -36,3 +37,6 @@ Vim customization:
  - Vundle (scripted package management): https://github.com/VundleVim/Vundle.vim
  - Curated packages for Vim: https://vimawesome.com/
 
+tmux:
+ - Standard command palette: https://tmuxcheatsheet.com
+ - A fancy sample configuration: https://github.com/gpakosz/.tmux
