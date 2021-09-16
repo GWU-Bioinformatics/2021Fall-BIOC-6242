@@ -1,3 +1,13 @@
+This directory contains files intended to be used as profile configurations for users setting up new SSH sessions. 
+Some files should be linked in the home directory, while others are sourced from e.g. the bashrc file. Linked files (and target locations) are:  
+  |\<FILE\>|\<LINKED LOCATION\>|
+  |--------|-------------------|
+  |`dotfiles/bashrc`|`~/.bashrc`|
+  |`dotfiles/vimrc`|`~/.vimrc`|
+  |`dotfiles/tmux.conf`|`~/.tmux.conf`|
+
+Symbolically link files as `ln -s <FILE> <LINK NAME>`
+
 ## NOTE: For PuTTY users
 Set session information roughly as follows:  
  - Connection &rarr; Data &rarr; "Terminal-type string": xterm-color
