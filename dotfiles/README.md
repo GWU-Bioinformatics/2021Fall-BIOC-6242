@@ -17,7 +17,7 @@ Set session information roughly as follows:
 Type a name for the session and click save to store your connection information
 
 ## Additional resources ##
-### These are all _optional_, but worth looking into as you develop your programming expertiese
+### These are all _optional_, but worth looking into as you develop your programming expertise
 Git:  
  - GitHub quickstart: https://docs.github.com/en/get-started/quickstart
  - A good description of version control: https://www.atlassian.com/git/tutorials/what-is-version-control
