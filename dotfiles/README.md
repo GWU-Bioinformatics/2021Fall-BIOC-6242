@@ -16,6 +16,11 @@ Set session information roughly as follows:
 
 Type a name for the session and click save to store your connection information
 
+## For other terminal sessions  
+If the commandline doesn't appear to have new colors, or otherwise appears to be malformed, try the following:
+ - Uncomment the `force_color_prompt=yes` line (see `bashrc:41`)
+ - When launching your ssh session, prepend `TERM=xterm-color` to the command (ie, `TERM=xterm-color ssh [args]`)
+
 ## Additional resources ##
 ### These are all _optional_, but worth looking into as you develop your programming expertise
 Git:  
